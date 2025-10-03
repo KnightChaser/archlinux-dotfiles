@@ -13,6 +13,18 @@
         "$XDG_CONFIG_HOME/waybar/modules/*json*", 
         "$XDG_CONFIG_HOME/waybar/includes/includes.json" 
     ],
+    // Custom tool configuration
+    "clock": {
+        "format": "<span font_weight='bold'>{:%Y/%m/%d(%a) %H:%M:%S}</span>",
+        "interval": 1,
+        "tooltip": false
+    },
+    "network": {
+      "interval": 1,
+      "format-wifi": "<span color='#4fd2c2' font_weight='bold'> {bandwidthDownBits}</span> <span color='#e2b714' font_weight='bold'> {bandwidthUpBits}</span>",
+      "format-ethernet": "<span color='#4fd2c2' font_weight='bold'> {bandwidthDownBits}</span> <span color='#e2b714' font_weight='bold'> {bandwidthUpBits}</span>",
+      "format-disconnected": ""
+    },
     // positions generated based on config.ctl //
     "modules-left": [
         "group/pill#left1",
@@ -58,7 +70,6 @@
             "pulseaudio#microphone",
             "custom/updates",
             "custom/keybindhint",
-            "custom/weather"
         ]
     },
     "group/pill#right2": {
