@@ -53,25 +53,25 @@
       "temp": true,
       "format": "{name}"
     },
-    { "type": "memory", "key": "memory" },
-    { "type": "disk",   "key": "disk  ", "folders": [ "/" ] },
+    // { "type": "memory", "key": "memory" },
+    // { "type": "disk",   "key": "disk  ", "folders": [ "/" ] },
 
-    // Display(s)
-    { "type": "display", "key": "disp  ", "format": "{width}x{height}@{refresh-rate}Hz" },
+    // // Display(s)
+    // { "type": "display", "key": "disp  ", "format": "{width}x{height}@{refresh-rate}Hz" },
 
-    // Power
-    { "type": "battery",      "key": "bat   " },
-    { "type": "poweradapter", "key": "ac    " },
+    // // Power
+    // { "type": "battery",      "key": "bat   " },
+    // { "type": "poweradapter", "key": "ac    " },
 
-    // Network
-    { "type": "localip",  "key": "lan   " },
-    { "type": "publicip", "key": "wan   " },
-    { "type": "wifi",     "key": "wifi  " },
-    { "type": "netio",    "key": "netio " },
+    // // Network
+    // { "type": "localip",  "key": "lan   " },
+    // { "type": "publicip", "key": "wan   " },
+    // { "type": "wifi",     "key": "wifi  " },
+    // { "type": "netio",    "key": "netio " },
 
-    "break",
-    { "type": "colors", "symbol": "circle" },
-    "break"
+    // "break",
+    // { "type": "colors", "symbol": "circle" },
+    // "break"
   ]
 }
 
