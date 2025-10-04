@@ -30,7 +30,6 @@
     { "type": "wm",       "key": "wm    " },
     { "type": "wmtheme",  "key": "wmthm " },
     { "type": "gtk",      "key": "gtk   " },
-    { "type": "icons",    "key": "icons " },
     { "type": "cursor",   "key": "cursor" },
 
     // Terminal+font
@@ -45,7 +44,7 @@
     {
       "type": "cpu",
       "key":  "cpu   ",
-      "format": "{name}  {cores-physical}C/{cores-logical}T @ {freq-max}"
+      "format": "{name}@{freq-max}"
     },
     {
       "type": "gpu",
