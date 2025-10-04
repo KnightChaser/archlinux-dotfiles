@@ -12,6 +12,8 @@
 !fastfetch/**
 !hypr/
 !hypr/**
+!kitty/
+!kitty/**
 !waybar/
 !waybar/**
 
